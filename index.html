@@ -359,7 +359,7 @@
         </ul>
       </address>
       <div class="social-footer-content">
-        <p class="footer-text">присоединяйтесь</p>
+        <h3 class="footer-text">присоединяйтесь</h3>
         <ul class="social-links-footer list">
           <li>
             <a href="#" class="icon-social-item">
@@ -387,8 +387,21 @@
           </li>
         </ul>
       </div>
+       <div class="footer-submit">
+        <h3 class="footer-text">Подпишетесь на рассылку</h3>
+        <label class="submit-form">
+        <input type="text" name="user-email" class="email-input" placeholder="E-mail">
+         <div class="submit-mail-btn">
+          <button type="submit" class="btn-mail-submit">Подписаться</button>
+          <svg class="mail-submit-icon" width="30" height="30">
+            <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+          </svg>
+          </label>
+        </div>
+          </div>
     </div>
   </footer>
+
   <div class="backdrop is-hidden"  data-modal>
     <div class="modal">
       <button type="button" class="modal-close-btn" data-modal-close>
@@ -398,9 +411,9 @@
       </button>
 
       <form action="" class="contact-form"> 
-        yutgyut
+        <h3 class="contact-form-title">Оставьте свои данные, мы вам перезвоним</h3>
         <label class="">
-        Имя 
+        <p class="contact-form-input-label">Имя</p> 
         <span class="contact-form-input-list">
         <input type="text" name="user-name" class="contact-form-input" required >
         <svg class="contact-form-icon" width="30" height="30">
@@ -409,16 +422,28 @@
        </span>
         </label>   
         <label class="">
-        <input type="email" name="user-email" class="contact-form-input" placeholder="Y ame*" required>
-      </label>
-      <label class="">
-        <input type="tel" name="user-tel" class="contact-form-input" placeholder="y nae*" required>
-      </label>
-      <label class="">
+          <p class="contact-form-input-label">Телефон</p> 
+          <span class="contact-form-input-list">
+            <input type="text" name="user-name" class="contact-form-input" required >
+            <svg class="contact-form-icon" width="30" height="30">
+              <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+           </span>
+          <label class="">
+        <p class="contact-form-input-label">Почта</p>
+        <span class="contact-form-input-list">
+          <input type="text" name="user-name" class="contact-form-input" required >
+          <svg class="contact-form-icon" width="30" height="30">
+            <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
+          </svg>
+         </span>
+         <label class="">
+        <p class="contact-form-input-label">Комментрий</p>
+        <span class="contact-form-input-list">
         <textarea name="user-message" class="contact-form-message" placeholder="Введите текст"></textarea>
       </label>
-      <input id="user-term-label" type="checkbox" name="user-term" class="modal-form-term" >
-      <label for="user-term-label">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+      <input id="user-term-label" type="checkbox" name="user-term" class="modal-form-term is-hidden" >
+      <label class="modal-form-term-desc" for="user-term-label">Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора</a></label>
         <button type="submit" class="contact-form-button">Отправить</button>
         </form>
       
