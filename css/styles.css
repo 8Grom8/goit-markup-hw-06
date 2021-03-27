@@ -649,6 +649,7 @@ body {
   text-transform: uppercase;
   color:var(--primary-white-color);
   margin-bottom: 15px;
+  
 }
 .social-footer-content {
   margin-bottom: 50px;
@@ -881,4 +882,11 @@ body {
   fill: var(--primary-white-color);
   margin-left: 150px;
   
+}
+
+.form-term-signature {
+  text-decoration-line: underline;
+  color:var(--accent-color);
+  margin-left: 3px;
+
 }
